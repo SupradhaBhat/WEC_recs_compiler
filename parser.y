@@ -1,5 +1,5 @@
 %{
-	void yyerror(char* s);
+	int yyerror(char* s);
 	int yylex();
 	#include "stdio.h"
 	#include "stdlib.h"
@@ -21,7 +21,10 @@ type2 : ADWORD NOUN ADWORD VERB ADWORD NOUN SPACE | ;
 
 %%
 
-
+int yyerror(char *s){
+	printf("invalid ");
+	return 1;
+}
 int main()
 {
 	printf("Enter the string : ");
