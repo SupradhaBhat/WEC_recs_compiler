@@ -13,6 +13,6 @@ hi23hello prints an output message "it is a verb" according to the rules in the 
 PARSER-
 We define CFGs according to rules given in the document.
 I have identified three possible rules i.e 
-NOUN VERB NOUN PUNCTUATION 
-ADWORD NOUN ADWORD VERB ADWORD NOUN
-NOUN VERB PUNCTUATION
+NOUN VERB NOUN PUNCTUATION ;
+ADWORD NOUN ADWORD VERB ADWORD NOUN ;
+NOUN VERB PUNCTUATION ;
