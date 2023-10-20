@@ -16,3 +16,5 @@ I have identified three possible rules i.e
 NOUN VERB NOUN PUNCTUATION ;
 ADWORD NOUN ADWORD VERB ADWORD NOUN ;
 NOUN VERB PUNCTUATION ;
+![image](https://github.com/SupradhaBhat/WEC_recs_compiler/assets/97398229/a31d79c9-a7ca-4309-bbc0-b8db32a1ebae)
+
